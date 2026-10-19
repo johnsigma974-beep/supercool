@@ -12,6 +12,9 @@ on:
       - '.github/workflows/build-schoolqr.yml'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
